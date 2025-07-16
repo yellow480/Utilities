@@ -6,42 +6,42 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entity = spawner.Create({
 	Entity = {
-		Name = "Train",
-		Asset = "https://github.com/yellow480/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/trainv3.rbxm",
+		Name = "Silence",
+		Asset = "https://github.com/yellow480/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/"silence.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
 		Flicker = {
-			Enabled = true,
+			Enabled = false,
 			Duration = 1
 		},
 		Shatter = true,
 		Repair = false
 	},
 	Earthquake = {
-		Enabled = true
+		Enabled = false
 	},
 	CameraShake = {
-		Enabled = true,
+		Enabled = false,
 		Range = 100,
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 250,
+		Speed = 15,
 		Delay = 5,
 		Reversed = false
 	},
 	Rebounding = {
 		Enabled = False,
 		Type = "Ambush", -- "Blitz"
-		Min = 0,
-		Max = 0,
+		Min = 1,
+		Max = 1,
 		Delay = 2
 	},
 	Damage = {
 		Enabled = true,
 		Range = 10,
-		Amount = 500
+		Amount = 150
 	},
 	Crucifixion = {
 		Enabled = true,
@@ -51,7 +51,7 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"Death", "Hints", "Go", "Here"},
+		Hints = {"You die", "Hints", "Go", "Here"},
 		Cause = ""
 	}
 })
