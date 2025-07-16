@@ -7,7 +7,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "Train",
-		Asset = "https://github.com/RegularVynixu/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/train.rbxm",
+		Asset = "https://github.com/yellow480/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/train.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
