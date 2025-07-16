@@ -7,7 +7,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "Template Entity",
-		Asset = "https://github.com/RegularVynixu/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/Rush.rbxm",
+		Asset = "https://github.com/RegularVynixu/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/train.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -27,7 +27,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 100,
+		Speed = 250,
 		Delay = 2,
 		Reversed = false
 	},
@@ -40,8 +40,8 @@ local entity = spawner.Create({
 	},
 	Damage = {
 		Enabled = true,
-		Range = 40,
-		Amount = 125
+		Range = 10,
+		Amount = 500
 	},
 	Crucifixion = {
 		Enabled = true,
