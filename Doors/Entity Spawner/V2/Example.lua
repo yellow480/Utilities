@@ -7,7 +7,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "Train",
-		Asset = "https://github.com/yellow480/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/train.rbxm",
+		Asset = "https://github.com/yellow480/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/trainv2.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -28,11 +28,11 @@ local entity = spawner.Create({
 	},
 	Movement = {
 		Speed = 250,
-		Delay = 2,
+		Delay = 5,
 		Reversed = false
 	},
 	Rebounding = {
-		Enabled = true,
+		Enabled = False,
 		Type = "Ambush", -- "Blitz"
 		Min = 1,
 		Max = 1,
